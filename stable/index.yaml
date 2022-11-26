@@ -1,34 +1,14 @@
 apiVersion: v1
 entries:
-  redis:
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 7.0.5
-    created: "2022-11-26T14:22:17.647389+09:00"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 2.x.x
-    description: Redis(R) is an open source, advanced key-value store. It is often
-      referred to as a data structure server since keys can contain strings, hashes,
-      lists, sets and sorted sets.
-    digest: ceeaecfb2219b385a957ed32fc4e91adfb0c748a5b930086146784a5b4b482dd
-    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
-    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
-    keywords:
-    - redis
-    - keyvalue
-    - database
-    maintainers:
-    - name: Bitnami
-      url: https://github.com/bitnami/charts
-    name: redis
-    sources:
-    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-26T14:36:25.979828+09:00"
+    description: A Helm chart for Kubernetes
+    digest: f5d77bf813c38481f0f1b226d78207f78422091676c54cb65886b73e1ab88097
+    name: demo
+    type: application
     urls:
-    - redis-17.3.11.tgz
-    version: 17.3.11
-generated: "2022-11-26T14:22:17.643075+09:00"
+    - https://guiunoh.github.io/helm-charts/stable/demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-26T14:36:25.979309+09:00"
